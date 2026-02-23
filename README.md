@@ -9,7 +9,8 @@ This work contains the data preparation and verification logic used to support s
 - Clear verification outcomes that can be consumed by backend APIs and surfaced in the mobile app
 
 # Scope of This Work (Data Track)
-- Cleaning and preparation of mock supplier registration data - Validation of key business attributes (registration status, registration date, tax presence)
+- Cleaning and preparation of mock supplier registration data
+- Validation of key business attributes (registration status, registration date, tax presence)
 - Creation of verification flags for data quality and risk
 - Rule-based classification of suppliers into:
        -VERIFIED
@@ -24,5 +25,5 @@ Flagged if recently registered or missing tax identification
 Verified if all core checks pass
 
 # Note
-Dataset is mock/simulated for MVP use
-Logic is designed to scale into SQL or ML post-MVP
+- The dataset is mock/simulated for MVP use
+- Logic is designed to scale into SQL or ML post-MVP
